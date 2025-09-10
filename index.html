@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>サンプルサイト</title>
+  <style>
+    /* リセット＆基本スタイル */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    /* 全体レイアウト調整 */
+    .wrapper {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #990099;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.8rem;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+      color: #000000; /* 変更 */
+    }
+
+    main h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    footer {
+      background-color: #990099;
+      color: white;
+      padding: 15px 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      box-sizing: border-box;
+    }
+
+    footer a {
+      color: #4CAF50;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      乃木坂46
+    </header>
+    <main>
+      <h3>５期生</h3>
+      <p>5期生紹介</p>
+      川崎さくら<br />
+      一ノ瀬みく<br />
+
+      <h3>４期生</h3>
+      <p>4期生紹介</p>
+      遠藤さくら<br />
+      嘉喜春香
+    </main>
+    <footer>
+      <div>連絡先: sample@example.com</div>
+      <div>
+        ソーシャル:
+        <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
